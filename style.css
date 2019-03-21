@@ -1,3 +1,7 @@
+*{
+  line-height: 1.5;
+}
+
 body
 {
   font-family: Arial, Helvetica, sans-serif;
@@ -27,26 +31,28 @@ aside
 {
   background: #ebebeb;
   float: right;
-  width:42%;
-  height: 300px;
+  width:44%;
+  height: 321px;
+  line-height: 5;
 }
 
  section 
  {
-  width: 53%;
+  width: 51%;
   float: left;
   background: #ebebeb;
-  padding: 20px;
+  padding: 10px;
   border: #ebebeb 15px;
   margin-bottom: 20px;
   height: 300px;
+  line-height: 4.6;
 }
  
  article 
  {
    color: #ebebeb;
    background: #777777;
-   padding: 30px;
+   padding: 18px;
 
  }
 
@@ -54,15 +60,17 @@ aside
  {
    color: #777777;
    background: #ebebeb;
-   width: 90%;
+   width: 95%;
    margin: 15px auto;
+   padding: 10px;
  }
 
  p
  {
   color: #777777;
   background: #ebebeb;
-  width: 90%;
+  width: 95%;
   margin: 15px auto;
+  padding: 8px;
  }
  
