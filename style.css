@@ -1,16 +1,17 @@
 body
 {
   font-family: Arial, Helvetica, sans-serif;
-  color: #777777;
+  background: #777777;
   width: 960px;
   font-size: 18px;
   text-align: center;
   margin: 0 auto;
 }
 
-div
-{
-
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
 }
 
 header,
@@ -26,29 +27,42 @@ aside
 {
   background: #ebebeb;
   float: right;
-  width:32%;
+  width:42%;
+  height: 300px;
 }
 
  section 
  {
-  width: 495px;
+  width: 53%;
   float: left;
- }
-
+  background: #ebebeb;
+  padding: 20px;
+  border: #ebebeb 15px;
+  margin-bottom: 20px;
+  height: 300px;
+}
+ 
  article 
  {
    color: #ebebeb;
-   background: #777777
+   background: #777777;
+   padding: 30px;
+
  }
 
- h1
+ h2
  {
    color: #777777;
-   background: #ebebeb
+   background: #ebebeb;
+   width: 90%;
+   margin: 15px auto;
  }
- 
- p 
+
+ p
  {
   color: #777777;
-  background: #ebebeb
+  background: #ebebeb;
+  width: 90%;
+  margin: 15px auto;
  }
+ 
